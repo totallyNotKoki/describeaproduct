@@ -1,0 +1,167 @@
+body{
+    background-color: whitesmoke;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.top-part p, .ad-part p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #38c9b2;
+}
+
+.top-part img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-ovw{
+    width: 30%;
+    text-align: left;
+}
+
+.card-ovw h1, .card-flv h1{
+    border-left: 3px solid #359ad4;
+    padding-left: 10px;
+    letter-spacing: 3px;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 450;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-ovw p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-gallery img{
+    margin-top: 10px;
+    width: 30%;
+}
+
+.flavours{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.flavours img{
+    margin-top: 10px;
+    width: 90%;
+}
+
+.footer{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.footer p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    background-color: #359ad4;
+    font-weight: 450;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+.nav{
+    background-color: #38c9b2;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 15px 30px 15px 30px;
+}
+
+.nav ul li:hover{
+    background: #35b8a2;
+}
+
+.nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+#special, #menu{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .top-part img{
+        width: 100%;
+    }
+
+    .overview, .image-gallery, .flavours{
+        display: block;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .card-ovw, .image-gallery img, .card-flv{
+        width: 100%;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    .nav ul li a{
+        display: none;
+    }
+
+    .nav ul li{
+        padding: 15px 0px 15px 0px;
+    }
+
+    .nav ul li:hover{
+        background: #38c9b2;
+    }
+
+    #special, #menu{
+        display: block;
+    }
+}

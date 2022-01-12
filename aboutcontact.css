@@ -1,0 +1,24 @@
+.main{
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 350;
+    text-align: justify;
+    cursor: default;
+}
+
+@media screen and (max-width: 600px){
+    .main{
+        width: 95%;
+    }
+
+    .main p{
+        text-align: left;
+    }
+}
